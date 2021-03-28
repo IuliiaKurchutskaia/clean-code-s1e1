@@ -14,7 +14,8 @@ body {
 .header_img {
   width: 100%;
 }
-.header .header-inf {
+.header,
+.header-inf {
   font-family: fantasy, cursive;
 }
 
@@ -52,10 +53,12 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.edit-mode_input,.edit.delete {
+.edit-mode_input,
+.edit.delete {
   outline:none;
 }
-.edit,.delete {
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -64,7 +67,8 @@ body {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.edit,.delete:hover {
+.edit,
+.delete:hover {
   color: #3a3A3a;
 }
 /* Heading */
@@ -104,7 +108,8 @@ body {
 .new_task {
   width: 318px;
 }
-.task-wrapper, .add {
+.task-wrapper,
+.add {
   cursor: pointer;
 }
 .task-wrapper:hover {
