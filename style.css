@@ -19,8 +19,11 @@ body {
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+
+  .header { 
+    text-align: center;
+  }
+
 }
 .main-element {
   display: block;
@@ -94,7 +97,7 @@ body {
 /* New Task */
 .task_label{
   display: block;
-   margin: 0 0 20px;
+  margin: 0 0 20px;
 }
 .new_task {
   width: 318px;
@@ -108,47 +111,46 @@ body {
 
 /* Task list */
 .edit-mode {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .edit-mode > * {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .edit-mode_input {
-    margin: 0 10px;
-    width: 226px
+  margin: 0 10px;
+  width: 226px
 
 }
 .task {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
  
 
 .delete:hover {
-    color: #CF2323;
+  color: #CF2323;
 }
 .delete_img {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 .delete_img:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
  .completed {
-    text-decoration: line-through
-    color: #888;
+  text-decoration: line-through
+  color: #888;
 }
 
 /* Edit Task */
@@ -157,10 +159,10 @@ body {
 } */
 
 .checked {
-    display:inline-block;
-    width:224px
+  display:inline-block;
+  width:224px
 }
 
 .completed {
-    display:none;
+  display:none;
 }
