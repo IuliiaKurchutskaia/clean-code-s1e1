@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.header{
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -42,7 +42,7 @@ body {
   margin:0;
   padding: 0px;
 }
-.label{
+.label {
   list-style:none;
   color: #333;
   font-weight: 700;
@@ -52,7 +52,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.edit-mode_input,.edit.delete{
+.edit-mode_input,.edit.delete {
   outline:none;
 }
 .edit,.delete {
@@ -78,6 +78,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
+
 .edit-mode_input {
   margin: 0;
   font-size: 18px;
@@ -90,19 +91,20 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .edit-mode_input:focus {
   color: #333;
 }
 
 /* New Task */
-.task_label{
+.task_label {
   display: block;
   margin: 0 0 20px;
 }
 .new_task {
   width: 318px;
 }
-.task-wrapper, .add{
+.task-wrapper, .add {
   cursor: pointer;
 }
 .task-wrapper:hover {
